@@ -14,7 +14,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
                         { leftBtnText }
                     </LeftButton>
                     <RightButton>
-                        { rightBtnText }}
+                        { rightBtnText }
                     </RightButton>
                 </ButtonGroup>
                 <DownArrow src='/images/down-arrow.svg' />
