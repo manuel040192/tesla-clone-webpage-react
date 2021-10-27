@@ -32,8 +32,7 @@ function Home() {
                 backgroundImg='/images/model-x.jpg'
                 leftBtnText='Custom Order'
                 rightBtnText='Existing Inventory'
-            />
-        
+            />        
             <Section
                 title='Solar Panels'
                 description='Lowest Cost Solar Panels in America'
@@ -41,7 +40,6 @@ function Home() {
                 leftBtnText='Order Now'
                 rightBtnText='Learn More' 
             />
-
             <Section 
                 title='Solar Roof'
                 description='Produce Clean Energy From Your Roof'
