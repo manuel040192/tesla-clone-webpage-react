@@ -47,6 +47,12 @@ function Home() {
                 leftBtnText='Order Now'
                 rightBtnText='Learn More'
             />
+            <Section 
+                title='Accesories'
+                description='Produce Clean Energy From Your Roof'
+                backgroundImg='/images/accesories.jpg'
+                leftBtnText='Shop Now'
+            />
         </Container>
     )
 }
