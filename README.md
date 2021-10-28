@@ -11,6 +11,9 @@ en el archivo Section.js que significa que si el botón derecho existe (en una c
 - Uso de íconos de Material UI.
 - Uso del hook useState y la declaración cursor: pointer en el link 'Menu'.
 - Uso de la declaración transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'}; en el componente BurgerNav.
+- Instalación de Styled Components con el comando npm i styled-components.
+- Instalaciones de @emotion/react y @emotion/styled con los comandos npm install @emotion/react y npm install @emotion/styled respectivamente, para posibilitar el funcionamiento del ícono CloseIcon de Material UI.
+- Instalación de React Reveal con el comando npm install react-reveal –save.
 
 Highlighted actions:
 
@@ -22,3 +25,6 @@ in the Section.js file that means that if the right button exists (in a certain 
 - Usage of Material UI icons.
 - Usage of the useState hook and the declaration cursor: pointer in the 'Menu' link.
 - Usage of the declaration transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'}; in the BurgerNav component.
+- Instalation of Styled Components with the command npm i styled-components.
+- Instalations of @emotion/react and @emotion/styled with the commands npm install @emotion/react and npm install @emotion/styled respectively, to make possible the functioning of the icon CloseIcon from Material UI.
+- Instalation of React Reveal with the command npm install react-reveal –save.
