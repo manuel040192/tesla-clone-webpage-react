@@ -10,6 +10,7 @@ en el archivo Section.js que significa que si el botón derecho existe (en una c
 - Uso de la declaración de CSS en JS letter-spacing: 1px; en los elementos p del componente Menu.
 - Uso de íconos de Material UI.
 - Uso del hook useState y la declaración cursor: pointer en el link 'Menu'.
+- Uso de la declaración transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'}; en el componente BurgerNav.
 
 Highlighted actions:
 
@@ -20,3 +21,4 @@ in the Section.js file that means that if the right button exists (in a certain 
 - Usage of the CSS in JS declaration letter-spacing: 1px; in the p elements of the Menu component.
 - Usage of Material UI icons.
 - Usage of the useState hook and the declaration cursor: pointer in the 'Menu' link.
+- Usage of the declaration transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'}; in the BurgerNav component.
