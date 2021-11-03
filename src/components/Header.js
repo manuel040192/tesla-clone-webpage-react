@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import CloseIcon from '@mui/icons-material/Close';
-import './src/textdecoration.css';
+import './textdecoration.css';
 
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
