@@ -19,7 +19,8 @@ en el archivo Section.js que significa que si el botón derecho existe (en una c
     "node": "^14.18.1",
     "npm": "^6.14.15"
   }
-- Instalación de Express.js, especificación de la versión de Express en y creación de un archivo llamado express.js en la carpeta raíz del repositorio con código necesario para el funcionamiento de Express.
+- Instalación de Express.js, especificación de la versión de Express en el archivo package.json, y creación de un archivo llamado express.js en la carpeta raíz del repositorio con código necesario para el funcionamiento de Express.
+- Desplegamiento de aplicación web en Heroku.
 
 Highlighted actions:
 
@@ -40,3 +41,4 @@ in the Section.js file that means that if the right button exists (in a certain 
     "npm": "^6.14.15"
   }
 - Installation of Express.js, specification of Express's version in the package.json file, and creation of an express.js file in the repository's root folder with code that is necessary for Express's functioning.
+- Deployment of web app to Heroku.
