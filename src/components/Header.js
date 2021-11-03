@@ -12,51 +12,6 @@ function Header() {
                 <img src='/images/logo.svg' alt='' />
             </a>
             <Menu>
-                <p><a href='#model-s'>Model S</a></p>
-                <p><a href='#'>Model 3</a></p>
-                <p><a href='#'>Model X</a></p>
-                <p><a href='#'>Model Y</a></p>
-                <p><a href='#'>Solar Roof</a></p>
-                <p><a href='#'>Solar Panels</a></p>
-            </Menu>
-            <RightMenu>
-                <p><a href='#'>Shop</a></p>
-                <p><a href='#'>Account</a></p>
-                <p><a href='#' onClick={()=>setBurgerStatus(true)}>Menu</a></p>
-            </RightMenu>
-            <BurgerNav show={burgerStatus}>
-                <CloseWrapper>
-                    <CustomClose onClick={()=>setBurgerStatus(false)} />
-                </CloseWrapper>
-                <li><a href='#'>Existing Inventory</a></li>
-                <li><a href='#'>Used Inventory</a></li>
-                <li><a href='#'>Trade-In</a></li>
-                <li><a href='#'>Test Drive</a></li>
-                <li><a href='#'>Cybertruck</a></li>
-                <li><a href='#'>Roadster</a></li>
-                <li><a href='#'>Semi</a></li>
-                <li><a href='#'>Charging</a></li>
-                <li><a href='#'>Powerwall</a></li>
-                <li><a href='#'>Commercial Energy</a></li>
-                <li><a href='#'>Utilities</a></li>
-                <li><a href='#'>Find Us</a></li>
-                <li><a href='#'>Support</a></li>
-                <li><a href='#'>Investor Relations</a></li>
-            </BurgerNav>
-        </Container>import React, { useState } from 'react';
-import styled from 'styled-components';
-import CloseIcon from '@mui/icons-material/Close';
-import './src/textdecoration.css';
-
-function Header() {
-    const [burgerStatus, setBurgerStatus] = useState(false);
-
-    return (
-        <Container>
-            <a>
-                <img src='/images/logo.svg' alt='' />
-            </a>
-            <Menu>
                 <p><a href='#' class='textdecoration'>Model S</a></p>
                 <p><a href='#' class='textdecoration'>Model 3</a></p>
                 <p><a href='#' class='textdecoration'>Model X</a></p>
