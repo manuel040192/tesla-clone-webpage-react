@@ -15,6 +15,10 @@ en el archivo Section.js que significa que si el botón derecho existe (en una c
 - Instalación de Styled Components con el comando npm i styled-components.
 - Instalaciones de @emotion/react y @emotion/styled con los comandos npm install @emotion/react y npm install @emotion/styled respectivamente, para posibilitar el funcionamiento del ícono CloseIcon de Material UI.
 - Instalación de React Reveal con el comando npm install react-reveal –save.
+- Especificación de las versiones de Node.js y npm con lo siguiente: "engines": {
+    "node": "^14.18.1",
+    "npm": "^6.14.15"
+  }
 
 Highlighted actions:
 
@@ -30,3 +34,7 @@ in the Section.js file that means that if the right button exists (in a certain 
 - Installation of Styled Components with the command npm i styled-components.
 - Installations of @emotion/react and @emotion/styled with the commands npm install @emotion/react and npm install @emotion/styled respectively, to make possible the functioning of the icon CloseIcon from Material UI.
 - Installation of React Reveal with the command npm install react-reveal –save.
+- Specification of Node.js and npm version with the following: "engines": {
+    "node": "^14.18.1",
+    "npm": "^6.14.15"
+  }
