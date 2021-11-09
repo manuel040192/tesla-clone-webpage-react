@@ -1,16 +1,13 @@
 // Importing express module
 const express = require('express');
+const path = require('path');
 const app = express();
 
-// Getting Request
-app.get('/', (req, res) => {
+app.use(express.static(path.join(__dirname, 'build')));
 
-	// Sending the response
-	res.send('Hello World!')
-	
-	// Ending the response
-	res.end()
-})
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 // Establishing the port
 const PORT = process.env.PORT ||5000;
