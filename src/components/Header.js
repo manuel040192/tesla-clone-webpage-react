@@ -12,36 +12,36 @@ function Header() {
                 <img src='/images/logo.svg' alt='' />
             </a>
             <Menu>
-                <p><a href='#' class='textdecoration'>Model S</a></p>
-                <p><a href='#' class='textdecoration'>Model 3</a></p>
-                <p><a href='#' class='textdecoration'>Model X</a></p>
-                <p><a href='#' class='textdecoration'>Model Y</a></p>
-                <p><a href='#' class='textdecoration'>Solar Roof</a></p>
-                <p><a href='#' class='textdecoration'>Solar Panels</a></p>
+                <p><a href='#' className='textdecoration'>Model S</a></p>
+                <p><a href='#' className='textdecoration'>Model 3</a></p>
+                <p><a href='#' className='textdecoration'>Model X</a></p>
+                <p><a href='#' className='textdecoration'>Model Y</a></p>
+                <p><a href='#' className='textdecoration'>Solar Roof</a></p>
+                <p><a href='#' className='textdecoration'>Solar Panels</a></p>
             </Menu>
             <RightMenu>
-                <p><a href='#' class='textdecoration'>Shop</a></p>
-                <p><a href='#' class='textdecoration'>Account</a></p>
+                <p><a href='#' className='textdecoration'>Shop</a></p>
+                <p><a href='#' className='textdecoration'>Account</a></p>
                 <p><a href='#' onClick={()=>setBurgerStatus(true)} class='textdecoration'>Menu</a></p>
             </RightMenu>
             <BurgerNav show={burgerStatus}>
                 <CloseWrapper>
                     <CustomClose onClick={()=>setBurgerStatus(false)} />
                 </CloseWrapper>
-                <li><a href='#' class='textdecoration'>Existing Inventory</a></li>
-                <li><a href='#' class='textdecoration'>Used Inventory</a></li>
-                <li><a href='#' class='textdecoration'>Trade-In</a></li>
-                <li><a href='#' class='textdecoration'>Test Drive</a></li>
-                <li><a href='#' class='textdecoration'>Cybertruck</a></li>
-                <li><a href='#' class='textdecoration'>Roadster</a></li>
-                <li><a href='#' class='textdecoration'>Semi</a></li>
-                <li><a href='#' class='textdecoration'>Charging</a></li>
-                <li><a href='#' class='textdecoration'>Powerwall</a></li>
-                <li><a href='#' class='textdecoration'>Commercial Energy</a></li>
-                <li><a href='#' class='textdecoration'>Utilities</a></li>
-                <li><a href='#' class='textdecoration'>Find Us</a></li>
-                <li><a href='#' class='textdecoration'>Support</a></li>
-                <li><a href='#' class='textdecoration'>Investor Relations</a></li>
+                <li><a href='#' className='textdecoration'>Existing Inventory</a></li>
+                <li><a href='#' className='textdecoration'>Used Inventory</a></li>
+                <li><a href='#' className='textdecoration'>Trade-In</a></li>
+                <li><a href='#' className='textdecoration'>Test Drive</a></li>
+                <li><a href='#' className='textdecoration'>Cybertruck</a></li>
+                <li><a href='#' className='textdecoration'>Roadster</a></li>
+                <li><a href='#' className='textdecoration'>Semi</a></li>
+                <li><a href='#' className='textdecoration'>Charging</a></li>
+                <li><a href='#' className='textdecoration'>Powerwall</a></li>
+                <li><a href='#' className='textdecoration'>Commercial Energy</a></li>
+                <li><a href='#' className='textdecoration'>Utilities</a></li>
+                <li><a href='#' className='textdecoration'>Find Us</a></li>
+                <li><a href='#' className='textdecoration'>Support</a></li>
+                <li><a href='#' className='textdecoration'>Investor Relations</a></li>
             </BurgerNav>
         </Container>
     )
